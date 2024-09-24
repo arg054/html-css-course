@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercises</title>
+
+    <style>
+      table {
+        width: 15%;
+        border-collapse: collapse;
+      }
+
+      tr {
+        border: 1px solid #c4dcf3;
+        border-left: 0px;
+        border-right: 0px;
+      }
+
+      tr:nth-child(odd) {
+        background-color: #eef7ff;
+      }
+
+      td {
+        border: 1px solid #c4dcf3;
+        padding: 10px;
+        border-left: 0px;
+        border-right: 0px;
+      }
+      th {
+        border: 1px solid #c4dcf3;
+        border-left: 0px;
+        border-right: 0px;
+        padding: 10px;
+        background-color: #427fef;
+        text-align: left;
+        color: white;
+      }
+      .box {
+        width: 300px;
+        height: 300px;
+        background-color: tomato;
+        box-shadow: 10px 10px 0px lightgray;
+        border-radius: 5%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Country</th>
+          <th>OrderID</th>
+          <th>Order Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>USA</td>
+          <td>1000</td>
+          <td>$1,300</td>
+        </tr>
+        <tr>
+          <td>USA</td>
+          <td>1001</td>
+          <td>$700</td>
+        </tr>
+        <tr>
+          <td>CA</td>
+          <td>1002</td>
+          <td>$2,000</td>
+        </tr>
+        <tr>
+          <td>CA</td>
+          <td>1003</td>
+          <td>$1,000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="2">Total</th>
+          <th>$5,000</th>
+        </tr>
+      </tfoot>
+    </table>
+    <br />
+    <div class="box"></div>
+  </body>
+</html>
