@@ -1,6 +1,34 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .username {
   font-weight: bold;
 }
+
 .header {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.header li {
+  margin-right: 10px;
+}
+
+p {
+  margin: 20px 0;
+  padding: 0;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: #f3f3f3;
+  margin: 20px 0;
+  display: inline-block;
+  overflow: hidden;
+  overflow: auto;
 }
