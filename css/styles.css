@@ -1,21 +1,13 @@
 .container {
-  display: grid;
-  grid-template: 100px auto 100px / 30fr 70fr;
-  gap: 10px;
-  border: 3px solid lightgray;
-  justify-items: stretch;
-  align-items: stretch;
-  height: 100vh;
-  grid-template-areas: "header header" "sidebar main" "footer footer";
+  display: flex;
+  flex-direction: column;
 }
+
 .box {
-  background-color: lightblue;
+  background-color: gold;
+  padding: 1rem;
 }
 
-.box-one {
-  grid-area: header;
-}
-
-.box-four {
-  grid-area: footer;
+.box:nth-of-type(2) {
+  background-color: dodgerblue;
 }
